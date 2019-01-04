@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_jndQsAncEemnWduGiA_5-Q" name="average_wage_year" dataPackage="_jndQsQncEemnWduGiA_5-Q" Server="Localhost 127.0.0.1" FilePath="/home/crisbal/Downloads/TalendDataIntegration/workspace/DRUGS/data/average_wage_year.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_jndQsQncEemnWduGiA_5-Q" name="default" dataManager="_jndQsAncEemnWduGiA_5-Q">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_jndQsgncEemnWduGiA_5-Q" id="_bIm1EAncEemnWduGiA_5-Q" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jndQswncEemnWduGiA_5-Q" label="Country" length="14" talendType="id_String" key="true" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_jndQtAncEemnWduGiA_5-Q" label="Amount20102017" length="47" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
